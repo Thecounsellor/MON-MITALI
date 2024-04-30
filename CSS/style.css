@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.name{
+    font-family: Protest Riot !important;
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: red;
+}
+
+.nav-link{
+    color: rgb(121, 67, 6) !important;
+    text-align: center !important;
+    font-size: 20px;
+    font-weight: 700 !important;
+    position: relative;
+}
+
+.nav-link:hover{
+    color: red !important;
+}
+
+.nav-link:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 0;
+    background-color: red;
+    transition: 0.3s;
+    bottom: 0;
+}
+
+.nav-link:hover:after{
+    width: 100%;
+}
+
+.bookappbtn{
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: black;
+    background: linear-gradient(90deg,rgb(231, 178, 62), rgb(213, 248, 85));
+    
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+    
+}
+
+.bookappbtn:hover{
+    background: linear-gradient(90deg,rgb(213, 248, 85), rgb(231, 178, 62));
+    color: black;
+}
+
+.leftwritten{
+    font-size: 290%;
+    background-color: rgb(125,147,158);
+    border-top-right-radius: 200px;
+    color: WHITE;
+}
+
+.text{
+    font-size: 20px;  
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.advertisementnote{
+    text-align: center !important;
+    background-color: rgb(249,162,29);
+    font-weight: 700;
+}
+
+.bookpart{
+    background-color: aliceblue;
+    font-size: 20px;
+}
+
+.color{
+    background-color: aliceblue;
+    padding: 20px 20px;
+}
+.pointsize{
+    font-size: 25px !important;
+    color: rgb(227,5,165);
+    text-decoration: underline;
+}
+
+.background{
+    background-color: aliceblue;
+}
+.contact{
+    font-size: 30px;
+}
+
+.fa-star{
+    color: rgb(199, 199, 4);
+}
+
+.fa-whatsapp{
+    font-size: 40px !important;
+    color: green;
+}
+
+.fa-envelope{
+    font-size: 40px;
+    color: rgb(132, 132, 239);
+}
+
+.fa-phone{
+    font-size: 34px;
+    color: blue;
+}
+
+.fa-facebook{
+    font-size: 40px;
+    color: blue;
+}
